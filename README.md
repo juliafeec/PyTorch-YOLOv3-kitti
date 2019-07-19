@@ -2,80 +2,25 @@
 Minimal implementation of YOLOv3 in PyTorch.
 And Training from Kitti dataset
 
-## Table of Contents
-- [PyTorch-YOLOv3](#pytorch-yolov3-kitti)
-  * [Table of Contents](#table-of-contents)
-  * [Paper](#paper)
-  * [Installation](#installation)
-  * [Inference](#inference)
-  * [Video](#video)
-  * [Test](#test)
-  * [Detect](#detect)
-  * [Train](#train)
-  * [Credit](#credit)
+## This repo is forked from [packyan](https://github.com/packyan/PyTorch-YOLOv3-kitti) and based on the PyTorch YOLOv3 implementation of [eriklindernoren](https://github.com/eriklindernoren/PyTorch-YOLOv3)
+
+# Setup on EC2:
+This was tested using a **g3s.xlarge** EC2 instance (with a NVIDIA Tesla M60), with the **Deep Learning AMI (Ubuntu) Version 23.1 - ami-07262a45de118922e**.
 
 
-## HI~THERE~ THIS repo is forked from [eriklindernoren](https://github.com/eriklindernoren/PyTorch-YOLOv3)
+Run ./setup_script.sh (https://github.com/juliafeec/PyTorch-YOLOv3-kitti/blob/master/setup_script.sh) to install requirements; set up the DB and transform labels to the COCO format; download initial weights and run train / test. 
 
-## Installation
-    $ git clone https://github.com/packyan/PyTorch-YOLOv3-kitti.git
-    $ cd PyTorch-YOLOv3-kitti/
-    $ sudo pip3 install -r requirements.txt
-
-
-##### Download pretrained weights
-if you wan use pretrained darknet-53 on IMAGENET weights, please download [darknet53.conv.74](https://pjreddie.com/media/files/darknet53.conv.74),and put it into `checkpoints/`
-
-if you just want a pretrained weights on kitti dataset for test or detect, please download [pretrained weights file](https://drive.google.com/file/d/1BRJDDCMRXdQdQs6-x-3PmlzcEuT9wxJV/view?usp=sharing), and put it into `weights` folder, the path:
-`weights/yolov3-kitti.weights`
-
-##### Download Kitti 
-
-[The KITTI Vision Benchmark Suite](http://www.cvlibs.net/datasets/kitti/eval_object.php)
-
-and you should transfrom kitti lable to coco label, by using [label_transform](label_transform/README.md)
-
-## Inference
-Uses pretrained weights to make predictions on images. `weights/yolov3-kitti.weights` was trained by kitti data set.
-`python3 detect.py --image_folder /data/samples`
-
-<p align="center"><img src="assets/12.png" width="480"\></p>
-<p align="center"><img src="assets/20.png" width="480"\></p>
-<p align="center"><img src="assets/18.png" width="480"\></p>
-<p align="center"><img src="assets/3.png" width="480"\></p>
-
-Small objects detection
-
-<p align="center"><img src="assets/4.png" width="480"\></p>
-
-## Detect
-
-run`detect.py` to detect objects, and please  put samples into `data/samples`
-defult weights files is `weights/kitti.weights`
-
-## Video
-
-run `video.py` to detect objects from a webcam or a video file.
-
-## Test
-
-run `test.py`
-
-## Train
-Please run `python3 -m visdom.server` first to vislizer your training loss.
-
-Data augmentation as well as additional training tricks remains to be implemented. PRs are welcomed!
 ```
-    train.py [-h] [--epochs EPOCHS] [--image_folder IMAGE_FOLDER]
-                [--batch_size BATCH_SIZE]
-                [--model_config_path MODEL_CONFIG_PATH]
-                [--data_config_path DATA_CONFIG_PATH]
-                [--weights_path WEIGHTS_PATH] [--class_path CLASS_PATH]
-                [--conf_thres CONF_THRES] [--nms_thres NMS_THRES]
-                [--n_cpu N_CPU] [--img_size IMG_SIZE]
-                [--checkpoint_interval CHECKPOINT_INTERVAL]
-                [--checkpoint_dir CHECKPOINT_DIR]
+wget https://raw.githubusercontent.com/juliafeec/PyTorch-YOLOv3-kitti/master/setup_script.sh
+chmod +x setup_script.sh
+./startup_script.sh
 ```
+
+Kitti DB files will need to be downloaded manually to **~/kitti** after registering with your email:
+http://www.cvlibs.net/download.php?file=data_object_image_2.zip
+http://www.cvlibs.net/download.php?file=data_object_label_2.zip
+
+
 ## Paper
 ### YOLOv3: An Incremental Improvement
 _Joseph Redmon, Ali Farhadi_ <br>
