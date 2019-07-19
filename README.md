@@ -2,7 +2,7 @@
 Minimal implementation of YOLOv3 in PyTorch.
 And Training from Kitti dataset
 
-## This repo is forked from [packyan](https://github.com/packyan/PyTorch-YOLOv3-kitti) and based on the PyTorch YOLOv3 implementation of [eriklindernoren](https://github.com/eriklindernoren/PyTorch-YOLOv3)
+### This repo is forked from [packyan](https://github.com/packyan/PyTorch-YOLOv3-kitti) and based on the PyTorch YOLOv3 implementation of [eriklindernoren](https://github.com/eriklindernoren/PyTorch-YOLOv3)
 
 # Setup on EC2:
 This was tested using a **g3s.xlarge** EC2 instance (with a NVIDIA Tesla M60), with the **Deep Learning AMI (Ubuntu) Version 23.1 - ami-07262a45de118922e**.
@@ -18,6 +18,7 @@ chmod +x setup_script.sh
 
 Kitti DB files will need to be downloaded manually to **~/kitti** after registering with your email:
 http://www.cvlibs.net/download.php?file=data_object_image_2.zip
+
 http://www.cvlibs.net/download.php?file=data_object_label_2.zip
 
 
