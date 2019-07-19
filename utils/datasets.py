@@ -23,6 +23,7 @@ class ImageFolder(Dataset):
 
     def __getitem__(self, index):
         img_path = self.files[index % len(self.files)]
+        img_path = os.path.expanduser(img_path)
         # Extract image
         img = np.array(Image.open(img_path))
         h, w, _ = img.shape
@@ -50,7 +51,7 @@ class ListDataset(Dataset):
     def __init__(self, list_path, img_size=416):
         with open(list_path, 'r') as file:
             self.img_files = file.readlines()
-        self.label_files = [path.replace('images', 'labels').replace('.png', '.txt').replace('.jpg', '.txt') for path in self.img_files]
+        self.label_files = [path.replace('image_2', 'labels2coco').replace('.png', '.txt').replace('.jpg', '.txt') for path in self.img_files]
         self.img_shape = (img_size, img_size)
         self.max_objects = 50
 
@@ -61,6 +62,7 @@ class ListDataset(Dataset):
         #---------
 
         img_path = self.img_files[index % len(self.img_files)].rstrip()
+        img_path = os.path.expanduser(img_path)
         img = np.array(Image.open(img_path))
 
         # Handles images with less than three channels
@@ -90,6 +92,7 @@ class ListDataset(Dataset):
         #---------
 
         label_path = self.label_files[index % len(self.img_files)].rstrip()
+        label_path = os.path.expanduser(label_path)
 
         labels = None
         if os.path.exists(label_path):

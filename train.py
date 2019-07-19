@@ -20,7 +20,7 @@ import torch.optim as optim
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--epochs", type=int, default=100, help="number of epochs")
-parser.add_argument("--image_folder", type=str, default="data/samples", help="path to dataset")
+#parser.add_argument("--image_folder", type=str, default="data/samples", help="path to dataset")
 parser.add_argument("--batch_size", type=int, default=10, help="size of each image batch")
 parser.add_argument("--model_config_path", type=str, default="config/yolov3-kitti.cfg", help="path to model config file")
 parser.add_argument("--data_config_path", type=str, default="config/kitti.data", help="path to data config file")
@@ -83,6 +83,8 @@ model.train()
 dataloader = torch.utils.data.DataLoader(
     ListDataset(train_path), batch_size=opt.batch_size, shuffle=True, num_workers=opt.n_cpu
 )
+#print("dataloader")
+#print(next(iter(dataloader)))
 
 Tensor = torch.cuda.FloatTensor if cuda else torch.FloatTensor
 
@@ -292,6 +294,8 @@ for epoch in range(opt.epochs):
         average_precision = compute_ap(recall, precision)
         average_precisions[label] = average_precision
 
+
+    print("Validation")
     print("Average Precisions:")
     for c, ap in average_precisions.items():
         print(f"+ Class '{c}' - AP: {ap}")

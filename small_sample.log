@@ -1,0 +1,2328 @@
+WARNING:root:Setting up a new session...
+WARNING:visdom:Without the incoming socket you cannot receive events from the server or register event handlers to your Visdom client.
+Namespace(batch_size=10, checkpoint_dir='checkpoints', checkpoint_interval=2, class_path='data/kitti.names', conf_thres=0.8, data_config_path='config/kitti.data', epochs=100, image_folder='data/samples', img_size=416, iou_thres=0.5, model_config_path='config/yolov3-kitti.cfg', n_cpu=16, nms_thres=0.4, use_cuda=True, weights_path='checkpoints/darknet53.conv.74')
+useconfig/kitti.data
+CUDA is ready
+start traing
+/home/ubuntu/anaconda3/envs/pytorch_p36/lib/python3.6/site-packages/torch/nn/_reduction.py:46: UserWarning: size_average and reduce args will be deprecated, please use reduction='mean' instead.
+  warnings.warn(warning.format(ret))
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 0/100, Batch 0/2] [Losses: x 0.294246, y 0.280436, w 3.139214, h 4.503078, conf 4.243625, cls 0.630427, total 13.091025, recall: 0.00000, precision: 0.00000]
+[Epoch 0/100, Batch 1/2] [Losses: x 0.204498, y 0.292138, w 5.455122, h 6.097266, conf 4.240205, cls 1.040409, total 17.329638, recall: 0.00000, precision: 0.00000]
+Compute 0 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:01<00:00,  1.88s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 12851.18it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 65472.06it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 121135.13it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 15577.73it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 120699.40it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 51228.14it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 107031.68it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 126382.04it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.0
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.0
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 1/100, Batch 0/2] [Losses: x 0.189485, y 0.220075, w 95.469855, h 66.926999, conf 3.133730, cls 0.601717, total 166.541855, recall: 0.01333, precision: 0.00034]
+[Epoch 1/100, Batch 1/2] [Losses: x 0.278746, y 0.225137, w 53.424519, h 43.462471, conf 3.224678, cls 1.006661, total 101.622208, recall: 0.02564, precision: 0.00009]
+Compute 1 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:01<00:00,  1.88s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 1960.24it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 90933.42it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 120051.64it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 6409.02it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 97683.94it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 38238.67it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 119410.79it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 110014.53it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.0
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.0
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 2/100, Batch 0/2] [Losses: x 0.243914, y 0.200685, w 41.344031, h 22.275521, conf 3.186118, cls 0.608156, total 67.858421, recall: 0.09333, precision: 0.00010]
+[Epoch 2/100, Batch 1/2] [Losses: x 0.219663, y 0.219170, w 26.297649, h 17.747093, conf 3.175390, cls 1.005649, total 48.664616, recall: 0.12821, precision: 0.00239]
+Compute 2 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.46s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 682.11it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 109476.12it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 124506.24it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 2366.49it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 29051.46it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 18206.42it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 104206.31it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 64465.77it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.0
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.0
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 3/100, Batch 0/2] [Losses: x 0.208021, y 0.233666, w 1.098598, h 1.111073, conf 2.823378, cls 0.592395, total 6.067130, recall: 0.22523, precision: 0.00462]
+[Epoch 3/100, Batch 1/2] [Losses: x 0.244853, y 0.193249, w 0.854293, h 1.791171, conf 2.896684, cls 1.000236, total 6.980485, recall: 0.23810, precision: 0.00301]
+Compute 3 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:03<00:00,  3.22s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 266.49it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 108240.10it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 52717.10it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 939.57it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 54782.75it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 12046.11it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 119837.26it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 114716.01it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.0005166386916288488
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0034739534989351654
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.0004988240238205018
+New Best AP appear !!! 0.000499
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 4/100, Batch 0/2] [Losses: x 0.230180, y 0.217991, w 1.433224, h 0.975079, conf 2.689302, cls 0.580244, total 6.126020, recall: 0.32407, precision: 0.00531]
+[Epoch 4/100, Batch 1/2] [Losses: x 0.183841, y 0.191700, w 1.411352, h 1.126749, conf 2.593273, cls 0.977811, total 6.484726, recall: 0.35556, precision: 0.00277]
+Compute 4 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:04<00:00,  4.04s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 158.16it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 98256.02it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 68478.43it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 601.31it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 116914.40it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 18866.70it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 106184.91it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 57358.00it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.002453154986550948
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.001427412596842556
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.000485070947924188
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 5/100, Batch 0/2] [Losses: x 0.208433, y 0.156710, w 0.675839, h 0.762269, conf 2.494681, cls 0.577916, total 4.875848, recall: 0.40476, precision: 0.00567]
+[Epoch 5/100, Batch 1/2] [Losses: x 0.211870, y 0.251187, w 0.361829, h 0.470115, conf 2.531102, cls 0.949768, total 4.775870, recall: 0.50725, precision: 0.00888]
+Compute 5 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:04<00:00,  4.88s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0':  75%|███████▌  | 12/16 [00:00<00:00, 119.28it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 102.73it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 115904.77it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 122016.12it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 500.61it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 129553.79it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 32017.59it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 123135.53it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 101680.10it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.00498202265296685
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0015704065608096317
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.0008190536517220601
+New Best AP appear !!! 0.000819
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 6/100, Batch 0/2] [Losses: x 0.209920, y 0.168243, w 1.019801, h 0.533271, conf 2.401582, cls 0.566895, total 4.899712, recall: 0.47059, precision: 0.00626]
+[Epoch 6/100, Batch 1/2] [Losses: x 0.189611, y 0.238311, w 0.692724, h 0.450473, conf 2.365673, cls 0.932043, total 4.868836, recall: 0.54902, precision: 0.00815]
+Compute 6 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:05<00:00,  5.58s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0':  62%|██████▎   | 10/16 [00:00<00:00, 86.81it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 74.57it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 114130.72it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 138941.75it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 565.55it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 118566.90it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 50118.64it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 135300.13it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 119837.26it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.007152628836516597
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0015210015210015211
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.0010842037946897647
+New Best AP appear !!! 0.001084
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 7/100, Batch 0/2] [Losses: x 0.188121, y 0.203582, w 0.986994, h 0.596793, conf 2.243498, cls 0.545867, total 4.764854, recall: 0.53571, precision: 0.00621]
+[Epoch 7/100, Batch 1/2] [Losses: x 0.207395, y 0.157048, w 1.235015, h 0.638871, conf 2.343988, cls 0.934333, total 5.516650, recall: 0.44928, precision: 0.00530]
+Compute 7 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:06<00:00,  6.02s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0':  56%|█████▋    | 9/16 [00:00<00:00, 74.52it/s]Computing AP for class '0':  94%|█████████▍| 15/16 [00:00<00:00, 65.85it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 61.54it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 112222.18it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 115307.33it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 659.11it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 124969.95it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 130816.50it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 137800.54it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 124506.24it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.006443983700502587
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.002674373040752351
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.0011397945926568671
+New Best AP appear !!! 0.001140
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 8/100, Batch 0/2] [Losses: x 0.167730, y 0.172380, w 1.006156, h 0.567732, conf 2.183567, cls 0.540624, total 4.638187, recall: 0.51282, precision: 0.00794]
+[Epoch 8/100, Batch 1/2] [Losses: x 0.254560, y 0.180758, w 0.806100, h 0.437072, conf 2.246617, cls 0.896766, total 4.821873, recall: 0.50000, precision: 0.00304]
+Compute 8 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:06<00:00,  6.34s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0':  50%|█████     | 8/16 [00:00<00:00, 79.01it/s]Computing AP for class '0':  81%|████████▏ | 13/16 [00:00<00:00, 65.19it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 57.38it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 115704.94it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 127826.41it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 713.14it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 134217.73it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 135573.46it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 139519.47it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 145257.28it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.009748816373503645
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.005385790679908327
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.0018918258816764965
+New Best AP appear !!! 0.001892
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 9/100, Batch 0/2] [Losses: x 0.204330, y 0.160175, w 0.639361, h 0.330983, conf 2.141408, cls 0.529151, total 4.005408, recall: 0.62037, precision: 0.00956]
+[Epoch 9/100, Batch 1/2] [Losses: x 0.135048, y 0.180259, w 0.874442, h 0.480574, conf 2.041918, cls 0.873467, total 4.585708, recall: 0.46667, precision: 0.00543]
+Compute 9 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:06<00:00,  6.51s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0':  50%|█████     | 8/16 [00:00<00:00, 74.25it/s]Computing AP for class '0':  81%|████████▏ | 13/16 [00:00<00:00, 61.43it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 54.52it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 117528.66it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 139519.47it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 706.06it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 116914.40it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 126620.50it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 100013.21it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 127341.30it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.018083199897330048
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.02732279589086357
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.005675749473524202
+New Best AP appear !!! 0.005676
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 10/100, Batch 0/2] [Losses: x 0.189940, y 0.149211, w 0.564329, h 0.270975, conf 2.061113, cls 0.510812, total 3.746381, recall: 0.59649, precision: 0.01015]
+[Epoch 10/100, Batch 1/2] [Losses: x 0.160644, y 0.180254, w 0.281155, h 0.464717, conf 2.008603, cls 0.886120, total 3.981493, recall: 0.56410, precision: 0.00619]
+Compute 10 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:06<00:00,  6.66s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0':  50%|█████     | 8/16 [00:00<00:00, 70.96it/s]Computing AP for class '0':  81%|████████▏ | 13/16 [00:00<00:00, 59.01it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 52.78it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 113359.57it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 134217.73it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 840.34it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 136956.87it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 138654.68it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 117734.85it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 146206.68it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.03155238026590122
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.030202176564405665
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.007719319603788361
+New Best AP appear !!! 0.007719
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 11/100, Batch 0/2] [Losses: x 0.181267, y 0.150271, w 0.487022, h 0.221767, conf 1.994039, cls 0.510190, total 3.544556, recall: 0.58095, precision: 0.01045]
+[Epoch 11/100, Batch 1/2] [Losses: x 0.168984, y 0.148572, w 0.235482, h 0.179023, conf 1.970702, cls 0.831252, total 3.534014, recall: 0.66667, precision: 0.00941]
+Compute 11 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:06<00:00,  6.46s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0':  50%|█████     | 8/16 [00:00<00:00, 69.65it/s]Computing AP for class '0':  81%|████████▏ | 13/16 [00:00<00:00, 57.26it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 51.10it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 116711.07it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 117528.66it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 1227.23it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 129804.38it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 136400.13it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 135847.90it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 137800.54it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.03578275548161957
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.014313728003281085
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.006262060435612582
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 12/100, Batch 0/2] [Losses: x 0.126038, y 0.142271, w 0.419141, h 0.264748, conf 1.876613, cls 0.506950, total 3.335761, recall: 0.44444, precision: 0.00564]
+[Epoch 12/100, Batch 1/2] [Losses: x 0.218517, y 0.138758, w 0.287543, h 0.117158, conf 1.986462, cls 0.815687, total 3.564125, recall: 0.75309, precision: 0.01871]
+Compute 12 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:06<00:00,  6.52s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0':  50%|█████     | 8/16 [00:00<00:00, 69.33it/s]Computing AP for class '0':  81%|████████▏ | 13/16 [00:00<00:00, 57.29it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 51.40it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 117323.19it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 120916.87it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 1821.23it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 138941.75it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 137800.54it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 124275.67it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 132364.62it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.05407641353528222
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.004512247529007306
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.007323582633036191
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 13/100, Batch 0/2] [Losses: x 0.175071, y 0.133334, w 0.368281, h 0.207960, conf 1.896656, cls 0.482951, total 3.264254, recall: 0.58120, precision: 0.01209]
+[Epoch 13/100, Batch 1/2] [Losses: x 0.144961, y 0.124394, w 0.373938, h 0.274204, conf 1.808024, cls 0.852586, total 3.578106, recall: 0.61111, precision: 0.00682]
+Compute 13 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:06<00:00,  6.01s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0':  50%|█████     | 8/16 [00:00<00:00, 71.60it/s]Computing AP for class '0':  81%|████████▏ | 13/16 [00:00<00:00, 59.09it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 53.13it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 103403.49it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 123817.09it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 3107.90it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 135573.46it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 144631.17it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 137518.16it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 144943.55it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.08871401048786742
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.009167303284950343
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.01223516422160222
+New Best AP appear !!! 0.012235
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 14/100, Batch 0/2] [Losses: x 0.142128, y 0.136193, w 0.391634, h 0.243840, conf 1.817422, cls 0.481711, total 3.212927, recall: 0.62281, precision: 0.01368]
+[Epoch 14/100, Batch 1/2] [Losses: x 0.212726, y 0.093412, w 0.382384, h 0.128341, conf 1.833078, cls 0.818719, total 3.468659, recall: 0.51282, precision: 0.00510]
+Compute 14 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:05<00:00,  5.88s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0':  50%|█████     | 8/16 [00:00<00:00, 73.53it/s]Computing AP for class '0':  81%|████████▏ | 13/16 [00:00<00:00, 61.09it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 55.13it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 129304.17it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 131586.01it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 4828.67it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 136400.13it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 140985.01it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 137800.54it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 144320.14it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.1274623289433311
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.01998001998001998
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.018430293615418883
+New Best AP appear !!! 0.018430
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 15/100, Batch 0/2] [Losses: x 0.189519, y 0.120537, w 0.426750, h 0.239143, conf 1.792899, cls 0.483088, total 3.251936, recall: 0.64103, precision: 0.00873]
+[Epoch 15/100, Batch 1/2] [Losses: x 0.115459, y 0.118210, w 0.295690, h 0.226799, conf 1.758391, cls 0.791993, total 3.306543, recall: 0.60000, precision: 0.01507]
+Compute 15 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:05<00:00,  5.52s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0':  50%|█████     | 8/16 [00:00<00:00, 76.16it/s]Computing AP for class '0':  81%|████████▏ | 13/16 [00:00<00:00, 64.03it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 57.91it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 114912.44it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 136400.13it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 9010.32it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 133949.83it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 115904.77it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 125672.03it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 146846.53it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.14768131071848753
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.050505050505050504
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.024773295152942253
+New Best AP appear !!! 0.024773
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 16/100, Batch 0/2] [Losses: x 0.144143, y 0.119168, w 0.359966, h 0.186559, conf 1.723075, cls 0.463774, total 2.996685, recall: 0.64762, precision: 0.01257]
+[Epoch 16/100, Batch 1/2] [Losses: x 0.176460, y 0.110524, w 0.274167, h 0.175617, conf 1.716437, cls 0.828978, total 3.282184, recall: 0.62500, precision: 0.01028]
+Compute 16 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:05<00:00,  5.20s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0':  56%|█████▋    | 9/16 [00:00<00:00, 74.19it/s]Computing AP for class '0':  94%|█████████▍| 15/16 [00:00<00:00, 67.06it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 63.50it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 126620.50it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 133949.83it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 13048.58it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 134486.70it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 125907.81it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 141281.82it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 144943.55it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.20609732451835033
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.08181818181818182
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.03598943829206652
+New Best AP appear !!! 0.035989
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 17/100, Batch 0/2] [Losses: x 0.141920, y 0.116393, w 0.355587, h 0.148195, conf 1.664857, cls 0.475929, total 2.902881, recall: 0.72840, precision: 0.01207]
+[Epoch 17/100, Batch 1/2] [Losses: x 0.158321, y 0.105104, w 0.265986, h 0.132156, conf 1.703604, cls 0.779159, total 3.144330, recall: 0.55556, precision: 0.01280]
+Compute 17 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:05<00:00,  5.03s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0':  56%|█████▋    | 9/16 [00:00<00:00, 77.38it/s]Computing AP for class '0':  94%|█████████▍| 15/16 [00:00<00:00, 70.72it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 67.14it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 113936.95it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 123589.07it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 17390.22it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 139230.01it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 128561.04it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 127100.12it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 147492.01it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.27070415279219945
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.04520165546266129
+New Best AP appear !!! 0.045202
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 18/100, Batch 0/2] [Losses: x 0.125205, y 0.108968, w 0.211067, h 0.185543, conf 1.612270, cls 0.470381, total 2.713433, recall: 0.64286, precision: 0.01145]
+[Epoch 18/100, Batch 1/2] [Losses: x 0.172699, y 0.100740, w 0.259415, h 0.091530, conf 1.660505, cls 0.778755, total 3.063644, recall: 0.65217, precision: 0.01416]
+Compute 18 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:04<00:00,  4.74s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0':  56%|█████▋    | 9/16 [00:00<00:00, 83.65it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 76.31it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 115704.94it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 142784.82it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 23546.97it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 132364.62it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 127100.12it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 124506.24it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 150806.44it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.25132311677993346
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.04277902596112805
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 19/100, Batch 0/2] [Losses: x 0.160810, y 0.096682, w 0.242332, h 0.105603, conf 1.617772, cls 0.449009, total 2.672207, recall: 0.73737, precision: 0.01458]
+[Epoch 19/100, Batch 1/2] [Losses: x 0.109936, y 0.104814, w 0.248827, h 0.143206, conf 1.550610, cls 0.836266, total 2.993659, recall: 0.48148, precision: 0.00948]
+Compute 19 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:04<00:00,  4.54s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0':  56%|█████▋    | 9/16 [00:00<00:00, 89.67it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 81.25it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 115307.33it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 124275.67it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 23890.66it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 135300.13it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 131586.01it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 138941.75it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 144631.17it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.24794571396506102
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.04235685060926899
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 20/100, Batch 0/2] [Losses: x 0.143114, y 0.085612, w 0.227129, h 0.114824, conf 1.540907, cls 0.461853, total 2.573438, recall: 0.60784, precision: 0.01250]
+[Epoch 20/100, Batch 1/2] [Losses: x 0.135281, y 0.111642, w 0.228630, h 0.089855, conf 1.568673, cls 0.785315, total 2.919396, recall: 0.72549, precision: 0.01245]
+Compute 20 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:03<00:00,  3.92s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0':  69%|██████▉   | 11/16 [00:00<00:00, 100.37it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 97.23it/s] 
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 120482.70it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 141879.21it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 52966.74it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 139810.13it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 146525.90it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 139810.13it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 145888.83it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.0028431319386698676
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.00035539149233373345
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 21/100, Batch 0/2] [Losses: x 0.208694, y 0.162869, w 2.513079, h 2.684115, conf 1.761367, cls 0.472412, total 7.802536, recall: 0.35185, precision: 0.00753]
+[Epoch 21/100, Batch 1/2] [Losses: x 0.177915, y 0.197874, w 4.280268, h 2.671621, conf 1.711630, cls 0.796953, total 9.836262, recall: 0.26667, precision: 0.00370]
+Compute 21 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:03<00:00,  3.81s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0':  69%|██████▉   | 11/16 [00:00<00:00, 107.46it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 111.29it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 121135.13it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 137236.94it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 47460.30it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 136123.46it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 143395.01it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 108240.10it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 144010.44it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.0018005626758361988
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.00022507033447952485
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 22/100, Batch 0/2] [Losses: x 0.187922, y 0.153633, w 1.200647, h 0.911562, conf 1.899943, cls 0.498899, total 4.852605, recall: 0.44444, precision: 0.00896]
+[Epoch 22/100, Batch 1/2] [Losses: x 0.184443, y 0.169702, w 1.077671, h 1.274913, conf 1.885872, cls 0.785489, total 5.378091, recall: 0.57778, precision: 0.00973]
+Compute 22 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:04<00:00,  4.02s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0':  69%|██████▉   | 11/16 [00:00<00:00, 105.42it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 103.67it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 120051.64it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 114520.25it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 132104.06it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 130055.94it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 132888.84it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 146206.68it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 136123.46it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.010394891104459777
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.0012993613880574722
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 23/100, Batch 0/2] [Losses: x 0.191858, y 0.171937, w 2.122996, h 1.616813, conf 1.909734, cls 0.486478, total 6.499815, recall: 0.46237, precision: 0.00793]
+[Epoch 23/100, Batch 1/2] [Losses: x 0.171816, y 0.139525, w 1.665553, h 1.488790, conf 1.841273, cls 0.821234, total 6.128190, recall: 0.45000, precision: 0.00448]
+Compute 23 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:04<00:00,  4.49s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0':  56%|█████▋    | 9/16 [00:00<00:00, 87.49it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 81.37it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 118357.78it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 135300.13it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 50648.20it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 136956.87it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 144943.55it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 142179.80it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 145257.28it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.009384411681055894
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.01253668782376835
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 24/100, Batch 0/2] [Losses: x 0.216505, y 0.141731, w 1.083869, h 0.819985, conf 1.572102, cls 0.476112, total 4.310303, recall: 0.46847, precision: 0.00855]
+[Epoch 24/100, Batch 1/2] [Losses: x 0.163475, y 0.154491, w 0.752315, h 0.677594, conf 1.656527, cls 0.765180, total 4.169582, recall: 0.59524, precision: 0.00817]
+Compute 24 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:04<00:00,  4.48s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0':  56%|█████▋    | 9/16 [00:00<00:00, 86.77it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 80.95it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 118987.35it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 126859.86it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 59178.89it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 116711.07it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 145572.37it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 142179.80it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 150468.30it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.01797908126140904
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.013611021521312494
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 25/100, Batch 0/2] [Losses: x 0.169218, y 0.144274, w 0.483299, h 0.719088, conf 1.483734, cls 0.480043, total 3.479656, recall: 0.67857, precision: 0.01214]
+[Epoch 25/100, Batch 1/2] [Losses: x 0.208284, y 0.160570, w 0.713277, h 0.357430, conf 1.592061, cls 0.759018, total 3.790639, recall: 0.47826, precision: 0.01025]
+Compute 25 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:04<00:00,  4.17s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0':  62%|██████▎   | 10/16 [00:00<00:00, 90.37it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 85.90it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 114912.44it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 93858.55it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 59865.18it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 133683.00it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 140395.11it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 131072.00it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 142784.82it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.03604814807451866
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.015869654872951194
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 26/100, Batch 0/2] [Losses: x 0.167289, y 0.158314, w 0.437367, h 0.348056, conf 1.401556, cls 0.456104, total 2.968686, recall: 0.73118, precision: 0.01587]
+[Epoch 26/100, Batch 1/2] [Losses: x 0.200734, y 0.128808, w 0.491420, h 0.393429, conf 1.429497, cls 0.797650, total 3.441538, recall: 0.40000, precision: 0.00719]
+Compute 26 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:04<00:00,  4.04s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0':  62%|██████▎   | 10/16 [00:00<00:00, 92.60it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 89.24it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 99568.05it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 132104.06it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 60732.00it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 139810.13it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 142784.82it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 133152.51it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 141579.88it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.05967554230420941
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.01882307915166254
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 27/100, Batch 0/2] [Losses: x 0.187415, y 0.134432, w 0.376579, h 0.263319, conf 1.348261, cls 0.467434, total 2.777439, recall: 0.59524, precision: 0.01136]
+[Epoch 27/100, Batch 1/2] [Losses: x 0.163063, y 0.122294, w 0.412330, h 0.305829, conf 1.359135, cls 0.762046, total 3.124697, recall: 0.62319, precision: 0.01579]
+Compute 27 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:03<00:00,  3.98s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0':  62%|██████▎   | 10/16 [00:00<00:00, 99.13it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 93.74it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 115704.94it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 123817.09it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 57952.39it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 144010.44it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 147492.01it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 130816.50it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 132104.06it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.09282296021313066
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.022966506390277697
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 28/100, Batch 0/2] [Losses: x 0.181522, y 0.099916, w 0.415633, h 0.344907, conf 1.299248, cls 0.473333, total 2.814560, recall: 0.50617, precision: 0.00865]
+[Epoch 28/100, Batch 1/2] [Losses: x 0.155171, y 0.135969, w 0.222473, h 0.119687, conf 1.322864, cls 0.747324, total 2.703488, recall: 0.75000, precision: 0.02047]
+Compute 28 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:03<00:00,  3.99s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0':  69%|██████▉   | 11/16 [00:00<00:00, 102.89it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 99.50it/s] 
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 117528.66it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 122238.37it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 66247.64it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 138941.75it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 141579.88it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 127583.39it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 147168.56it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.11559304224188065
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.025812766643871443
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 29/100, Batch 0/2] [Losses: x 0.114135, y 0.104188, w 0.205628, h 0.234498, conf 1.256465, cls 0.451062, total 2.365977, recall: 0.63542, precision: 0.01428]
+[Epoch 29/100, Batch 1/2] [Losses: x 0.217267, y 0.113640, w 0.237578, h 0.111974, conf 1.280872, cls 0.790556, total 2.751887, recall: 0.64912, precision: 0.01521]
+Compute 29 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:03<00:00,  3.67s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0':  75%|███████▌  | 12/16 [00:00<00:00, 110.40it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 106.38it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 118566.90it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 124737.67it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 52143.64it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 117734.85it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 145572.37it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 139519.47it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 131072.00it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.16798462166270514
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.03236171407147451
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 30/100, Batch 0/2] [Losses: x 0.166063, y 0.094051, w 0.171874, h 0.121406, conf 1.254065, cls 0.437815, total 2.245274, recall: 0.65812, precision: 0.01823]
+[Epoch 30/100, Batch 1/2] [Losses: x 0.107935, y 0.127155, w 0.316190, h 0.177503, conf 1.189342, cls 0.877180, total 2.795306, recall: 0.52778, precision: 0.00830]
+Compute 30 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:03<00:00,  3.57s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0':  75%|███████▌  | 12/16 [00:00<00:00, 118.30it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 112.99it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 120482.70it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 136677.93it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 45343.83it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 124275.67it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 127341.30it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 129304.17it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 133683.00it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.17389328279628724
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.03310029671317227
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 31/100, Batch 0/2] [Losses: x 0.140283, y 0.078554, w 0.189095, h 0.158593, conf 1.193597, cls 0.474802, total 2.234924, recall: 0.59375, precision: 0.01324]
+[Epoch 31/100, Batch 1/2] [Losses: x 0.167480, y 0.119133, w 0.344586, h 0.171866, conf 1.195542, cls 0.716365, total 2.714971, recall: 0.66667, precision: 0.01598]
+Compute 31 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:03<00:00,  3.44s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0':  81%|████████▏ | 13/16 [00:00<00:00, 125.39it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 120.61it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 122238.37it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 125672.03it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 49784.02it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 125907.81it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 131328.50it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 120266.78it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 135573.46it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.18257241549980135
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.03418518830111153
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 32/100, Batch 0/2] [Losses: x 0.131483, y 0.084921, w 0.191870, h 0.180701, conf 1.164042, cls 0.467912, total 2.220929, recall: 0.58621, precision: 0.01256]
+[Epoch 32/100, Batch 1/2] [Losses: x 0.173971, y 0.103218, w 0.342557, h 0.228299, conf 1.185802, cls 0.739651, total 2.773498, recall: 0.66667, precision: 0.01695]
+Compute 32 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:03<00:00,  3.36s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0':  88%|████████▊ | 14/16 [00:00<00:00, 134.20it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 128.42it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 122238.37it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 126382.04it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 44063.60it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 136677.93it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 140395.11it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 143702.06it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 118776.75it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.2209295540017399
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.03897983061385385
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 33/100, Batch 0/2] [Losses: x 0.146517, y 0.091462, w 0.146071, h 0.148691, conf 1.164943, cls 0.440936, total 2.138619, recall: 0.65766, precision: 0.01761]
+[Epoch 33/100, Batch 1/2] [Losses: x 0.129193, y 0.057912, w 0.161672, h 0.260401, conf 1.098700, cls 0.837659, total 2.545537, recall: 0.54762, precision: 0.00887]
+Compute 33 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:03<00:00,  3.32s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0':  88%|████████▊ | 14/16 [00:00<00:00, 139.82it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 134.63it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 120266.78it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 124045.96it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 36631.48it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 126144.48it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 143702.06it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 144010.44it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 130561.99it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.17763804172364817
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.15151515151515152
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.04114414915484996
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 34/100, Batch 0/2] [Losses: x 0.140145, y 0.079735, w 0.158958, h 0.188054, conf 1.141774, cls 0.444121, total 2.152789, recall: 0.63063, precision: 0.01765]
+[Epoch 34/100, Batch 1/2] [Losses: x 0.138552, y 0.067889, w 0.225337, h 0.182729, conf 1.059752, cls 0.820559, total 2.494817, recall: 0.71429, precision: 0.01205]
+Compute 34 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:03<00:00,  3.19s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0':  94%|█████████▍| 15/16 [00:00<00:00, 146.49it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 144.24it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 119410.79it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 127826.41it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 37365.74it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 137518.16it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 132626.21it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 142179.80it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 132364.62it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.2233090834641613
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.03927727179665653
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 35/100, Batch 0/2] [Losses: x 0.127343, y 0.089237, w 0.120930, h 0.156186, conf 1.088537, cls 0.449353, total 2.031587, recall: 0.67949, precision: 0.01416]
+[Epoch 35/100, Batch 1/2] [Losses: x 0.152806, y 0.056219, w 0.192849, h 0.161359, conf 1.094841, cls 0.773311, total 2.431385, recall: 0.64000, precision: 0.02069]
+Compute 35 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:03<00:00,  3.10s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 151.27it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 118149.41it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 138368.79it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 41605.00it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 136956.87it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 140395.11it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 137518.16it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 145888.83it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.22531687353608748
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.039528245555647296
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 36/100, Batch 0/2] [Losses: x 0.158547, y 0.065191, w 0.128820, h 0.086712, conf 1.104335, cls 0.446974, total 1.990579, recall: 0.61111, precision: 0.01448]
+[Epoch 36/100, Batch 1/2] [Losses: x 0.101905, y 0.077631, w 0.116232, h 0.131327, conf 1.026729, cls 0.785285, total 2.239109, recall: 0.71429, precision: 0.02102]
+Compute 36 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:03<00:00,  3.21s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 161.47it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 104368.37it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 128315.23it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 36452.40it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 136677.93it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 140689.44it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 136400.13it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 137236.94it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.19229000299905874
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.13636363636363635
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.04108170492033689
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 37/100, Batch 0/2] [Losses: x 0.158044, y 0.066336, w 0.111847, h 0.072401, conf 1.047566, cls 0.456253, total 1.912447, recall: 0.69697, precision: 0.01925]
+[Epoch 37/100, Batch 1/2] [Losses: x 0.104497, y 0.067137, w 0.093926, h 0.144279, conf 1.064230, cls 0.755956, total 2.230025, recall: 0.61111, precision: 0.01552]
+Compute 37 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.93s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 175.70it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 119410.79it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 120916.87it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 41838.44it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 138654.68it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 143395.01it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 139519.47it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 132364.62it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.263330897852922
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.15151515151515152
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.051855756171009196
+New Best AP appear !!! 0.051856
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 38/100, Batch 0/2] [Losses: x 0.102685, y 0.071940, w 0.086291, h 0.101776, conf 1.010568, cls 0.454967, total 1.828227, recall: 0.76543, precision: 0.01905]
+[Epoch 38/100, Batch 1/2] [Losses: x 0.169497, y 0.056951, w 0.160780, h 0.090751, conf 1.051347, cls 0.760634, total 2.289961, recall: 0.56944, precision: 0.01807]
+Compute 38 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.89s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 183.73it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 113936.95it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 129553.79it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 52306.21it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 115307.33it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 138654.68it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 110740.70it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 137800.54it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.2290737521429308
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.03999785538150272
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 39/100, Batch 0/2] [Losses: x 0.117477, y 0.072484, w 0.065264, h 0.062180, conf 1.030395, cls 0.440931, total 1.788731, recall: 0.70833, precision: 0.02158]
+[Epoch 39/100, Batch 1/2] [Losses: x 0.158811, y 0.045011, w 0.171139, h 0.131942, conf 0.950851, cls 0.797358, total 2.255111, recall: 0.63158, precision: 0.01743]
+Compute 39 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.80s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 193.07it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 119623.64it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 136677.93it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 53261.00it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 137800.54it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 144010.44it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 139230.01it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 141879.21it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.2620764170097665
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.044123188489857176
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 40/100, Batch 0/2] [Losses: x 0.114486, y 0.062086, w 0.071973, h 0.076018, conf 0.966557, cls 0.457884, total 1.749004, recall: 0.80952, precision: 0.02710]
+[Epoch 40/100, Batch 1/2] [Losses: x 0.148255, y 0.042338, w 0.104355, h 0.124489, conf 0.956602, cls 0.750303, total 2.126342, recall: 0.39583, precision: 0.00907]
+Compute 40 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.74s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 204.11it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 128561.04it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 135300.13it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 50231.19it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 136956.87it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 139230.01it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 134217.73it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 140395.11it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.2796216085817679
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.04631633743635735
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 41/100, Batch 0/2] [Losses: x 0.125340, y 0.045919, w 0.084889, h 0.047110, conf 0.961322, cls 0.443249, total 1.707830, recall: 0.67480, precision: 0.02596]
+[Epoch 41/100, Batch 1/2] [Losses: x 0.110970, y 0.070745, w 0.066762, h 0.066831, conf 0.886208, cls 0.830128, total 2.031644, recall: 0.70000, precision: 0.01149]
+Compute 41 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.73s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 213.36it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 119198.69it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 135573.46it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 53644.18it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 132626.21it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 138941.75it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 137236.94it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 135300.13it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.2778926453618425
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.04610021703386667
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 42/100, Batch 0/2] [Losses: x 0.127569, y 0.036847, w 0.091024, h 0.063548, conf 0.931782, cls 0.447193, total 1.697963, recall: 0.65625, precision: 0.02006]
+[Epoch 42/100, Batch 1/2] [Losses: x 0.109692, y 0.072615, w 0.102258, h 0.051812, conf 0.881883, cls 0.779795, total 1.998054, recall: 0.73684, precision: 0.02367]
+Compute 42 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.65s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 227.76it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 104530.94it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 122461.43it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 51463.85it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 139519.47it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 140689.44it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 143702.06it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 149130.81it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.2625534204248933
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.044182813916748026
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 43/100, Batch 0/2] [Losses: x 0.114070, y 0.049585, w 0.090870, h 0.045260, conf 0.875412, cls 0.468047, total 1.643245, recall: 0.65385, precision: 0.01769]
+[Epoch 43/100, Batch 1/2] [Losses: x 0.127451, y 0.051485, w 0.121519, h 0.088764, conf 0.894647, cls 0.729365, total 2.013231, recall: 0.70667, precision: 0.02894]
+Compute 43 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.58s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 237.46it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 117734.85it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 134756.76it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 54120.05it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 132888.84it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 139230.01it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 133152.51it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 145572.37it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.2363801207482774
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.040911151457171044
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 44/100, Batch 0/2] [Losses: x 0.129022, y 0.046082, w 0.096854, h 0.061768, conf 0.855102, cls 0.458425, total 1.647252, recall: 0.67901, precision: 0.01904]
+[Epoch 44/100, Batch 1/2] [Losses: x 0.107679, y 0.051934, w 0.047821, h 0.044434, conf 0.878184, cls 0.744084, total 1.874135, recall: 0.69444, precision: 0.03051]
+Compute 44 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.68s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 250.12it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 128070.35it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 132626.21it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 50763.13it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 133683.00it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 138941.75it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 136956.87it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 139519.47it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.2655466671057092
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.044556969751850015
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 45/100, Batch 0/2] [Losses: x 0.108418, y 0.054785, w 0.062283, h 0.055577, conf 0.825709, cls 0.476699, total 1.583472, recall: 0.61538, precision: 0.01777]
+[Epoch 45/100, Batch 1/2] [Losses: x 0.131779, y 0.037443, w 0.103229, h 0.076049, conf 0.861836, cls 0.706591, total 1.916928, recall: 0.76000, precision: 0.03440]
+Compute 45 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.51s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 251.81it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 94786.53it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 134217.73it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 51189.06it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 131586.01it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 136400.13it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 138941.75it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 140102.01it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.3368301510751984
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.05346740524803617
+New Best AP appear !!! 0.053467
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 46/100, Batch 0/2] [Losses: x 0.107250, y 0.040141, w 0.085845, h 0.060722, conf 0.812939, cls 0.470093, total 1.576989, recall: 0.56667, precision: 0.01831]
+[Epoch 46/100, Batch 1/2] [Losses: x 0.130713, y 0.053472, w 0.073540, h 0.055337, conf 0.828300, cls 0.713194, total 1.854557, recall: 0.85714, precision: 0.03432]
+Compute 46 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.49s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 267.20it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 103563.06it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 136123.46it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 64652.08it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 132626.21it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 127341.30it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 139810.13it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 146206.68it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.24353240319844394
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.04180518676344186
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 47/100, Batch 0/2] [Losses: x 0.112046, y 0.044395, w 0.081722, h 0.049386, conf 0.793197, cls 0.461393, total 1.542139, recall: 0.55952, precision: 0.01729]
+[Epoch 47/100, Batch 1/2] [Losses: x 0.122080, y 0.043315, w 0.039846, h 0.058574, conf 0.805938, cls 0.734638, total 1.804391, recall: 0.81159, precision: 0.03593]
+Compute 47 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.44s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 270.35it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 117734.85it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 123361.88it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 63852.39it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 125672.03it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 146846.53it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 127341.30it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 148470.94it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.276613626501794
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.04594033967636062
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 48/100, Batch 0/2] [Losses: x 0.119267, y 0.050954, w 0.082931, h 0.071835, conf 0.792555, cls 0.440651, total 1.558193, recall: 0.63725, precision: 0.02477]
+[Epoch 48/100, Batch 1/2] [Losses: x 0.091429, y 0.027671, w 0.090102, h 0.102731, conf 0.757802, cls 0.790861, total 1.860597, recall: 0.72549, precision: 0.02427]
+Compute 48 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.43s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 281.47it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 115307.33it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 121354.18it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 71544.63it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 137518.16it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 143089.26it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 140395.11it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 142784.82it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.29690832017969226
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.0484771763860979
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 49/100, Batch 0/2] [Losses: x 0.108630, y 0.039170, w 0.079372, h 0.063658, conf 0.778630, cls 0.453293, total 1.522752, recall: 0.62500, precision: 0.02443]
+[Epoch 49/100, Batch 1/2] [Losses: x 0.109554, y 0.039893, w 0.031593, h 0.033799, conf 0.740427, cls 0.749107, total 1.704372, recall: 0.77193, precision: 0.03036]
+Compute 49 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.43s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 291.20it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 109297.82it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 133949.83it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 71544.63it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 138084.08it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 138368.79it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 136677.93it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 140689.44it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.35054169968932597
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.05518134882480211
+New Best AP appear !!! 0.055181
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 50/100, Batch 0/2] [Losses: x 0.122100, y 0.039917, w 0.076962, h 0.042446, conf 0.728407, cls 0.456589, total 1.466421, recall: 0.64198, precision: 0.02173]
+[Epoch 50/100, Batch 1/2] [Losses: x 0.090239, y 0.036340, w 0.048048, h 0.071563, conf 0.777537, cls 0.741837, total 1.765565, recall: 0.72222, precision: 0.03695]
+Compute 50 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.39s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 293.11it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 122461.43it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 140102.01it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 72707.33it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 128561.04it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 133152.51it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 141879.21it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 150131.69it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.331239743119356
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.05276860425355587
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 51/100, Batch 0/2] [Losses: x 0.112934, y 0.030178, w 0.060635, h 0.032926, conf 0.731026, cls 0.460770, total 1.428468, recall: 0.59375, precision: 0.02433]
+[Epoch 51/100, Batch 1/2] [Losses: x 0.094931, y 0.046705, w 0.082296, h 0.040904, conf 0.695997, cls 0.720705, total 1.681538, recall: 0.80702, precision: 0.03299]
+Compute 51 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.35s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 307.32it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 110014.53it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 116711.07it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 65793.00it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 120051.64it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 122016.12it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 121574.03it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 121354.18it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.28748362877827827
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.04729908996092115
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 52/100, Batch 0/2] [Losses: x 0.106133, y 0.029662, w 0.081208, h 0.045037, conf 0.705880, cls 0.452047, total 1.419967, recall: 0.63725, precision: 0.02847]
+[Epoch 52/100, Batch 1/2] [Losses: x 0.100811, y 0.040190, w 0.046076, h 0.054415, conf 0.685207, cls 0.748729, total 1.675428, recall: 0.76471, precision: 0.03079]
+Compute 52 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.46s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 321.99it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 120916.87it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 135573.46it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 71774.19it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 140395.11it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 144010.44it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 138941.75it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 148470.94it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.34595130227911675
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.05460754914852596
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 53/100, Batch 0/2] [Losses: x 0.106019, y 0.030800, w 0.063841, h 0.025503, conf 0.696749, cls 0.429202, total 1.352115, recall: 0.70940, precision: 0.03837]
+[Epoch 53/100, Batch 1/2] [Losses: x 0.088275, y 0.041288, w 0.079643, h 0.070134, conf 0.638573, cls 0.865315, total 1.783228, recall: 0.58333, precision: 0.01704]
+Compute 53 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.31s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 326.88it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 120266.78it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 123135.53it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 65664.25it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 140102.01it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 143089.26it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 138941.75it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 145888.83it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.35523581408866656
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.05576811312471969
+New Best AP appear !!! 0.055768
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 54/100, Batch 0/2] [Losses: x 0.116603, y 0.031054, w 0.080309, h 0.037234, conf 0.670162, cls 0.447105, total 1.382466, recall: 0.70707, precision: 0.03437]
+[Epoch 54/100, Batch 1/2] [Losses: x 0.076219, y 0.032033, w 0.065845, h 0.063801, conf 0.639971, cls 0.753634, total 1.631503, recall: 0.62963, precision: 0.02724]
+Compute 54 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.32s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 331.15it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 130816.50it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 118566.90it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 63913.20it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 125437.13it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 151487.28it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 143702.06it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 148800.14it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.27464821812281587
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.045694663628988344
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 55/100, Batch 0/2] [Losses: x 0.104009, y 0.029766, w 0.066325, h 0.060445, conf 0.657417, cls 0.432413, total 1.350374, recall: 0.65741, precision: 0.03553]
+[Epoch 55/100, Batch 1/2] [Losses: x 0.095493, y 0.038493, w 0.078804, h 0.082051, conf 0.620994, cls 0.819807, total 1.735642, recall: 0.71111, precision: 0.02725]
+Compute 55 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.30s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 332.92it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 129055.51it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 123589.07it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 61965.71it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 137800.54it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 145888.83it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 144631.17it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 131844.53it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.27093030853654554
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.04522992493070456
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 56/100, Batch 0/2] [Losses: x 0.105258, y 0.024369, w 0.075613, h 0.045697, conf 0.649384, cls 0.446470, total 1.346790, recall: 0.64103, precision: 0.03956]
+[Epoch 56/100, Batch 1/2] [Losses: x 0.078351, y 0.040931, w 0.062656, h 0.035445, conf 0.584104, cls 0.766147, total 1.567634, recall: 0.83333, precision: 0.02682]
+Compute 56 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.28s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 353.46it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 120699.40it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 127341.30it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 72865.22it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 141879.21it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 150468.30it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 109476.12it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 148800.14it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.2051339137085494
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.03700537557720504
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 57/100, Batch 0/2] [Losses: x 0.097050, y 0.034942, w 0.075112, h 0.036535, conf 0.623176, cls 0.451303, total 1.318118, recall: 0.77778, precision: 0.04238]
+[Epoch 57/100, Batch 1/2] [Losses: x 0.098106, y 0.014292, w 0.099106, h 0.055032, conf 0.606646, cls 0.742684, total 1.615866, recall: 0.50000, precision: 0.02557]
+Compute 57 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.28s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 355.06it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 118776.75it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 141579.88it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 67581.94it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 137236.94it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 144010.44it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 144631.17it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 144631.17it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.235670640694859
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.04082246645049374
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 58/100, Batch 0/2] [Losses: x 0.107374, y 0.027896, w 0.078175, h 0.040133, conf 0.600786, cls 0.455980, total 1.310345, recall: 0.68966, precision: 0.03461]
+[Epoch 58/100, Batch 1/2] [Losses: x 0.078147, y 0.024469, w 0.041103, h 0.035149, conf 0.604129, cls 0.727162, total 1.510159, recall: 0.68182, precision: 0.04395]
+Compute 58 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.26s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 362.64it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 120699.40it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 140985.01it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 64839.48it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 137236.94it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 143395.01it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 138084.08it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 128561.04it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.2718487250512689
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.04534472699504498
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 59/100, Batch 0/2] [Losses: x 0.081280, y 0.024503, w 0.059219, h 0.025768, conf 0.593683, cls 0.445938, total 1.230391, recall: 0.70588, precision: 0.04447]
+[Epoch 59/100, Batch 1/2] [Losses: x 0.123900, y 0.033081, w 0.164107, h 0.037614, conf 0.583227, cls 0.750319, total 1.692248, recall: 0.60784, precision: 0.03093]
+Compute 59 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.25s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 361.86it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 129553.79it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 138368.79it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 68478.43it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 136956.87it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 124275.67it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 140689.44it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 146525.90it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.26383878867134614
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.044343484947554634
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 60/100, Batch 0/2] [Losses: x 0.093672, y 0.022611, w 0.060886, h 0.035530, conf 0.578449, cls 0.467168, total 1.258316, recall: 0.52381, precision: 0.02813]
+[Epoch 60/100, Batch 1/2] [Losses: x 0.091053, y 0.029973, w 0.067599, h 0.060762, conf 0.559358, cls 0.702164, total 1.510908, recall: 0.89855, precision: 0.06601]
+Compute 60 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.35s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 384.50it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 121135.13it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 107546.26it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 71165.29it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 133949.83it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 136677.93it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 133417.22it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 138368.79it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.23561924807025802
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.04081604237241862
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 61/100, Batch 0/2] [Losses: x 0.079103, y 0.020316, w 0.060283, h 0.028140, conf 0.535665, cls 0.465722, total 1.189229, recall: 0.62821, precision: 0.03288]
+[Epoch 61/100, Batch 1/2] [Losses: x 0.099620, y 0.032713, w 0.067310, h 0.044256, conf 0.593405, cls 0.714464, total 1.551767, recall: 0.74667, precision: 0.05878]
+Compute 61 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.22s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 400.29it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 120916.87it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 135573.46it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 123135.53it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 138941.75it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 145257.28it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 136956.87it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 130561.99it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.2832936123625374
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.03541170154531718
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 62/100, Batch 0/2] [Losses: x 0.096445, y 0.015962, w 0.063570, h 0.054423, conf 0.551585, cls 0.431190, total 1.213175, recall: 0.79825, precision: 0.06269]
+[Epoch 62/100, Batch 1/2] [Losses: x 0.071682, y 0.040863, w 0.071097, h 0.101844, conf 0.526948, cls 0.822418, total 1.634851, recall: 0.38462, precision: 0.01667]
+Compute 62 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.23s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 399.07it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 133949.83it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 133417.22it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 64096.34it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 135847.90it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 138654.68it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 132364.62it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 139519.47it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.28142215459762265
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.0465414056883392
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 63/100, Batch 0/2] [Losses: x 0.076892, y 0.022551, w 0.070508, h 0.035620, conf 0.524877, cls 0.460527, total 1.190975, recall: 0.48718, precision: 0.02702]
+[Epoch 63/100, Batch 1/2] [Losses: x 0.102440, y 0.020055, w 0.073549, h 0.055819, conf 0.540537, cls 0.719940, total 1.512340, recall: 0.88000, precision: 0.07620]
+Compute 63 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.20s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 403.64it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 135300.13it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 109834.47it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 71697.50it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 110195.18it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 143089.26it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 136677.93it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 143395.01it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.3066402507662436
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.09090909090909091
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.049693667709416814
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 64/100, Batch 0/2] [Losses: x 0.077708, y 0.025011, w 0.057600, h 0.033522, conf 0.496781, cls 0.462192, total 1.152814, recall: 0.70238, precision: 0.04509]
+[Epoch 64/100, Batch 1/2] [Losses: x 0.101236, y 0.017756, w 0.058807, h 0.029422, conf 0.558383, cls 0.720056, total 1.485659, recall: 0.66667, precision: 0.05347]
+Compute 64 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.23s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 423.36it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 116914.40it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 115704.94it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 138084.08it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 124506.24it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 142481.66it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 140102.01it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 143395.01it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.3154366196451859
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.039429577455648235
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 65/100, Batch 0/2] [Losses: x 0.083602, y 0.017542, w 0.044421, h 0.031541, conf 0.512545, cls 0.435613, total 1.125263, recall: 0.70085, precision: 0.06121]
+[Epoch 65/100, Batch 1/2] [Losses: x 0.088918, y 0.028484, w 0.066189, h 0.049069, conf 0.490071, cls 0.799795, total 1.522526, recall: 0.63889, precision: 0.02962]
+Compute 65 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.19s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 430.52it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 125437.13it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 128315.23it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 131072.00it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 130561.99it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 137236.94it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 132104.06it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 136123.46it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.3021528493799645
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.03776910617249556
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 66/100, Batch 0/2] [Losses: x 0.067883, y 0.017543, w 0.037411, h 0.041301, conf 0.480263, cls 0.453070, total 1.097471, recall: 0.62667, precision: 0.03861]
+[Epoch 66/100, Batch 1/2] [Losses: x 0.095434, y 0.024054, w 0.059447, h 0.019036, conf 0.512536, cls 0.731188, total 1.441695, recall: 0.75641, precision: 0.07297]
+Compute 66 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.19s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 427.42it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 119410.79it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 126859.86it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 143395.01it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 121135.13it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 125203.10it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 141579.88it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 128561.04it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.27008913936519224
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.03376114242064903
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 67/100, Batch 0/2] [Losses: x 0.070594, y 0.019193, w 0.029500, h 0.035133, conf 0.491752, cls 0.443678, total 1.089851, recall: 0.72807, precision: 0.06461]
+[Epoch 67/100, Batch 1/2] [Losses: x 0.104563, y 0.018101, w 0.051306, h 0.044834, conf 0.475309, cls 0.749207, total 1.443320, recall: 0.53846, precision: 0.02891]
+Compute 67 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.18s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 435.50it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 125672.03it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 108766.39it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 135573.46it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 137800.54it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 144320.14it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 134756.76it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 140985.01it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.2986893110223526
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.03733616387779407
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 68/100, Batch 0/2] [Losses: x 0.077744, y 0.017549, w 0.051810, h 0.022026, conf 0.473786, cls 0.449001, total 1.091916, recall: 0.60784, precision: 0.05159]
+[Epoch 68/100, Batch 1/2] [Losses: x 0.080293, y 0.023229, w 0.063776, h 0.029629, conf 0.479423, cls 0.728935, total 1.405285, recall: 0.82353, precision: 0.05817]
+Compute 68 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.32s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 451.72it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 118149.41it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 118357.78it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 125203.10it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 113743.84it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 126382.04it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 105849.94it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 128070.35it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.3035009005679582
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.037937612570994775
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 69/100, Batch 0/2] [Losses: x 0.074689, y 0.017829, w 0.046109, h 0.033923, conf 0.463205, cls 0.453052, total 1.088807, recall: 0.62963, precision: 0.05747]
+[Epoch 69/100, Batch 1/2] [Losses: x 0.083943, y 0.016818, w 0.025880, h 0.030335, conf 0.470587, cls 0.708765, total 1.336328, recall: 0.80000, precision: 0.05306]
+Compute 69 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 475.08it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 126620.50it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 125907.81it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 130308.47it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 124737.67it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 132626.21it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 141281.82it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 149130.81it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.3320324410149818
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.041504055126872726
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 70/100, Batch 0/2] [Losses: x 0.079960, y 0.018414, w 0.038750, h 0.024317, conf 0.455944, cls 0.411360, total 1.028744, recall: 0.88889, precision: 0.07042]
+[Epoch 70/100, Batch 1/2] [Losses: x 0.072373, y 0.013921, w 0.191019, h 0.041863, conf 0.454060, cls 0.818503, total 1.591739, recall: 0.38095, precision: 0.03619]
+Compute 70 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 463.56it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 121354.18it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 129055.51it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 126382.04it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 143702.06it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 147168.56it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 135027.90it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 149130.81it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.38284477591274596
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.047855596989093245
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 71/100, Batch 0/2] [Losses: x 0.080195, y 0.015383, w 0.054592, h 0.028148, conf 0.436658, cls 0.457934, total 1.072910, recall: 0.60000, precision: 0.04142]
+[Epoch 71/100, Batch 1/2] [Losses: x 0.064656, y 0.017772, w 0.018796, h 0.024408, conf 0.452655, cls 0.711738, total 1.290025, recall: 0.75641, precision: 0.08898]
+Compute 71 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.12s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 468.22it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 120699.40it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 136677.93it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 141879.21it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 143089.26it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 147816.88it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 144631.17it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 132364.62it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.4000286953697811
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.050003586921222636
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 72/100, Batch 0/2] [Losses: x 0.078895, y 0.013931, w 0.038828, h 0.032675, conf 0.431492, cls 0.446182, total 1.042003, recall: 0.71429, precision: 0.06952]
+[Epoch 72/100, Batch 1/2] [Losses: x 0.060271, y 0.021535, w 0.049046, h 0.027683, conf 0.439370, cls 0.730135, total 1.328040, recall: 0.60417, precision: 0.04719]
+Compute 72 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.10s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 494.66it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 118357.78it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 128315.23it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 140689.44it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 140689.44it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 144631.17it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 112788.01it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 133949.83it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.4133281138784928
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.0516660142348116
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 73/100, Batch 0/2] [Losses: x 0.077826, y 0.015042, w 0.034383, h 0.026345, conf 0.420772, cls 0.446394, total 1.020763, recall: 0.75862, precision: 0.06298]
+[Epoch 73/100, Batch 1/2] [Losses: x 0.064299, y 0.012784, w 0.045478, h 0.025030, conf 0.436078, cls 0.735047, total 1.318716, recall: 0.57576, precision: 0.05759]
+Compute 73 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.09s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 500.95it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 118566.90it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 135847.90it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 137518.16it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 131072.00it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 143395.01it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 138084.08it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 130308.47it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.40012865942102194
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.05001608242762774
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 74/100, Batch 0/2] [Losses: x 0.072378, y 0.015405, w 0.032434, h 0.027702, conf 0.411086, cls 0.443861, total 1.002867, recall: 0.66667, precision: 0.06273]
+[Epoch 74/100, Batch 1/2] [Losses: x 0.064096, y 0.012594, w 0.022382, h 0.034119, conf 0.420730, cls 0.734248, total 1.288167, recall: 0.68421, precision: 0.06131]
+Compute 74 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.09s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 511.41it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 121574.03it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 133152.51it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 144320.14it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 141879.21it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 132888.84it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 114912.44it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 145572.37it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.3986711600007215
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.04983389500009019
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 75/100, Batch 0/2] [Losses: x 0.067528, y 0.014597, w 0.038194, h 0.026638, conf 0.412330, cls 0.445484, total 1.004770, recall: 0.58889, precision: 0.05136]
+[Epoch 75/100, Batch 1/2] [Losses: x 0.065276, y 0.011362, w 0.015753, h 0.035499, conf 0.393998, cls 0.730530, total 1.252419, recall: 0.79365, precision: 0.08547]
+Compute 75 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.08s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 519.11it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 119623.64it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 135027.90it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 107031.68it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 138368.79it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 125907.81it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 140689.44it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 146846.53it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.3903044988973421
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.04878806236216776
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 76/100, Batch 0/2] [Losses: x 0.071340, y 0.015046, w 0.049862, h 0.027913, conf 0.398607, cls 0.439934, total 1.002702, recall: 0.77778, precision: 0.06915]
+[Epoch 76/100, Batch 1/2] [Losses: x 0.057402, y 0.008890, w 0.026515, h 0.023235, conf 0.393315, cls 0.741005, total 1.250362, recall: 0.50794, precision: 0.05721]
+Compute 76 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.24s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 528.19it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 123817.09it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 132104.06it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 127583.39it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 131586.01it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 135847.90it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 128807.80it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 134486.70it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.39692419608548274
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.04961552451068534
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 77/100, Batch 0/2] [Losses: x 0.068997, y 0.011368, w 0.028721, h 0.018097, conf 0.391291, cls 0.444749, total 0.963223, recall: 0.68571, precision: 0.07418]
+[Epoch 77/100, Batch 1/2] [Losses: x 0.052764, y 0.015006, w 0.014058, h 0.023142, conf 0.387399, cls 0.721713, total 1.214082, recall: 0.64583, precision: 0.05557]
+Compute 77 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.06s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 550.04it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 115307.33it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 132104.06it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 131844.53it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 132888.84it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 133417.22it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 132626.21it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 138941.75it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.3774307921648133
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.04717884902060166
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 78/100, Batch 0/2] [Losses: x 0.057524, y 0.011113, w 0.020903, h 0.023670, conf 0.372577, cls 0.447211, total 0.932997, recall: 0.74444, precision: 0.07506]
+[Epoch 78/100, Batch 1/2] [Losses: x 0.066677, y 0.012478, w 0.036325, h 0.019509, conf 0.400973, cls 0.724980, total 1.260942, recall: 0.57143, precision: 0.06080]
+Compute 78 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.06s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 559.58it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 132888.84it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 138084.08it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 134217.73it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 137800.54it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 145572.37it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 100612.99it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 147816.88it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.3782223152648615
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.04727778940810769
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 79/100, Batch 0/2] [Losses: x 0.058962, y 0.011067, w 0.030033, h 0.020506, conf 0.362988, cls 0.445447, total 0.929003, recall: 0.76190, precision: 0.07192]
+[Epoch 79/100, Batch 1/2] [Losses: x 0.068791, y 0.009232, w 0.037270, h 0.019097, conf 0.389036, cls 0.728557, total 1.251983, recall: 0.56522, precision: 0.06687]
+Compute 79 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.05s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 564.98it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 115109.54it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 124506.24it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 128070.35it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 96698.65it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 131328.50it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 126382.04it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 149130.81it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.3503286368144953
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.04379107960181191
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 80/100, Batch 0/2] [Losses: x 0.057656, y 0.011923, w 0.036770, h 0.022984, conf 0.376011, cls 0.427889, total 0.933232, recall: 0.67568, precision: 0.07974]
+[Epoch 80/100, Batch 1/2] [Losses: x 0.059906, y 0.014777, w 0.062523, h 0.034210, conf 0.348082, cls 0.791462, total 1.310959, recall: 0.69048, precision: 0.06117]
+Compute 80 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.05s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 579.99it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 120051.64it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 135027.90it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 120699.40it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 103883.69it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 143395.01it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 144010.44it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 141579.88it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.3749870992962473
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.04687338741203091
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 81/100, Batch 0/2] [Losses: x 0.063122, y 0.009456, w 0.026636, h 0.019610, conf 0.359276, cls 0.441069, total 0.919169, recall: 0.61458, precision: 0.06651]
+[Epoch 81/100, Batch 1/2] [Losses: x 0.053313, y 0.010612, w 0.027729, h 0.022201, conf 0.352339, cls 0.730726, total 1.196920, recall: 0.78947, precision: 0.08741]
+Compute 81 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.03s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 607.00it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 122238.37it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 125437.13it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 141879.21it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 138368.79it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 146206.68it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 140395.11it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 142784.82it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.3802521435446794
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.047531517943084925
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 82/100, Batch 0/2] [Losses: x 0.047301, y 0.011354, w 0.065400, h 0.015443, conf 0.354748, cls 0.441793, total 0.936040, recall: 0.60952, precision: 0.07228]
+[Epoch 82/100, Batch 1/2] [Losses: x 0.071341, y 0.010768, w 0.018049, h 0.029887, conf 0.346732, cls 0.728079, total 1.204855, recall: 0.81250, precision: 0.07678]
+Compute 82 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.03s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 614.60it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 128315.23it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 128315.23it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 134217.73it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 134486.70it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 138084.08it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 135847.90it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 139230.01it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.37272446360149786
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.04659055795018723
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 83/100, Batch 0/2] [Losses: x 0.059961, y 0.007830, w 0.029498, h 0.021443, conf 0.342099, cls 0.450839, total 0.911671, recall: 0.68889, precision: 0.07162]
+[Epoch 83/100, Batch 1/2] [Losses: x 0.054781, y 0.009823, w 0.023289, h 0.012588, conf 0.341896, cls 0.701210, total 1.143588, recall: 0.63492, precision: 0.08229]
+Compute 83 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.05s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 626.76it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 120266.78it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 124969.95it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 126620.50it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 125437.13it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 127826.41it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 128315.23it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 123135.53it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.3662969034890504
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.0457871129361313
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 84/100, Batch 0/2] [Losses: x 0.045226, y 0.009745, w 0.022535, h 0.015467, conf 0.328260, cls 0.456880, total 0.878112, recall: 0.62222, precision: 0.06764]
+[Epoch 84/100, Batch 1/2] [Losses: x 0.069982, y 0.008110, w 0.060839, h 0.013361, conf 0.340985, cls 0.689571, total 1.182848, recall: 0.73016, precision: 0.09447]
+Compute 84 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.13s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 647.33it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 120051.64it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 124275.67it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 141579.88it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 127341.30it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 146846.53it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 145888.83it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 149462.95it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.3680375131376829
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.04600468914221036
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 85/100, Batch 0/2] [Losses: x 0.057213, y 0.008901, w 0.024026, h 0.016700, conf 0.338154, cls 0.436233, total 0.881227, recall: 0.68254, precision: 0.09839]
+[Epoch 85/100, Batch 1/2] [Losses: x 0.047938, y 0.009759, w 0.034537, h 0.051266, conf 0.308746, cls 0.755170, total 1.207416, recall: 0.62963, precision: 0.04533]
+Compute 85 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.01s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 652.62it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 119623.64it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 127826.41it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 138084.08it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 145572.37it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 134756.76it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 143395.01it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 149462.95it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.3688126671793083
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.046101583397413534
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 86/100, Batch 0/2] [Losses: x 0.052105, y 0.007275, w 0.021892, h 0.020106, conf 0.324209, cls 0.422294, total 0.847881, recall: 0.69444, precision: 0.09277]
+[Epoch 86/100, Batch 1/2] [Losses: x 0.047299, y 0.007943, w 0.101074, h 0.093684, conf 0.311470, cls 0.800024, total 1.361495, recall: 0.62222, precision: 0.06317]
+Compute 86 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.01s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 656.31it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 128070.35it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 126620.50it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 133949.83it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 131586.01it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 124045.96it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 135027.90it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 132888.84it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.3576057867724551
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.044700723346556885
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 87/100, Batch 0/2] [Losses: x 0.056528, y 0.010705, w 0.048739, h 0.016668, conf 0.323607, cls 0.429889, total 0.886137, recall: 0.73148, precision: 0.09701]
+[Epoch 87/100, Batch 1/2] [Losses: x 0.043233, y 0.007881, w 0.053795, h 0.049719, conf 0.307164, cls 0.763734, total 1.225525, recall: 0.51111, precision: 0.05225]
+Compute 87 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.02s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 643.93it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 113743.84it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 118987.35it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 113551.38it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 120916.87it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 123817.09it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 121135.13it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 80756.76it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.380494859403769
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.04756185742547112
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 88/100, Batch 0/2] [Losses: x 0.053974, y 0.011993, w 0.047540, h 0.034621, conf 0.324631, cls 0.452992, total 0.925752, recall: 0.53763, precision: 0.06214]
+[Epoch 88/100, Batch 1/2] [Losses: x 0.044244, y 0.006742, w 0.046526, h 0.025604, conf 0.300093, cls 0.689737, total 1.112946, recall: 0.88333, precision: 0.11818]
+Compute 88 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.00s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 657.05it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 110923.74it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 128561.04it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 129304.17it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 126859.86it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 132104.06it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 130055.94it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 136123.46it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.377796557327283
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.047224569665910376
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 89/100, Batch 0/2] [Losses: x 0.054480, y 0.009221, w 0.041686, h 0.018438, conf 0.310737, cls 0.427453, total 0.862016, recall: 0.76068, precision: 0.11572]
+[Epoch 89/100, Batch 1/2] [Losses: x 0.036267, y 0.008544, w 0.057836, h 0.022640, conf 0.309427, cls 0.785713, total 1.220427, recall: 0.41667, precision: 0.03379]
+Compute 89 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:01<00:00,  1.98s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 675.95it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 114325.15it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 127341.30it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 131328.50it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 129553.79it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 124969.95it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 128070.35it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 137518.16it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.40440485471418347
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.050550606839272934
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 90/100, Batch 0/2] [Losses: x 0.059589, y 0.010044, w 0.047965, h 0.041157, conf 0.306282, cls 0.423690, total 0.888727, recall: 0.75238, precision: 0.10423]
+[Epoch 90/100, Batch 1/2] [Losses: x 0.032952, y 0.005806, w 0.045990, h 0.025500, conf 0.298352, cls 0.776803, total 1.185403, recall: 0.50000, precision: 0.05477]
+Compute 90 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:01<00:00,  1.99s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 717.30it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 124506.24it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 129804.38it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 124969.95it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 130816.50it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 132888.84it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 131586.01it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 138368.79it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.41786012911979703
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.05223251613997463
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 91/100, Batch 0/2] [Losses: x 0.055604, y 0.007653, w 0.038733, h 0.026738, conf 0.303806, cls 0.429566, total 0.862100, recall: 0.73874, precision: 0.11082]
+[Epoch 91/100, Batch 1/2] [Losses: x 0.031867, y 0.012010, w 0.068682, h 0.026789, conf 0.294404, cls 0.753154, total 1.186907, recall: 0.50000, precision: 0.05201]
+Compute 91 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:01<00:00,  1.97s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 708.34it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 125203.10it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 117323.19it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 131328.50it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 131072.00it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 116508.44it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 133683.00it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 136400.13it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.442908454250629
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.05536355678132863
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 92/100, Batch 0/2] [Losses: x 0.037752, y 0.009662, w 0.033668, h 0.024631, conf 0.284882, cls 0.435348, total 0.825942, recall: 0.66667, precision: 0.08147]
+[Epoch 92/100, Batch 1/2] [Losses: x 0.057673, y 0.008822, w 0.038402, h 0.021148, conf 0.305643, cls 0.725766, total 1.157453, recall: 0.68116, precision: 0.10703]
+Compute 92 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:01<00:00,  1.98s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 717.22it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 123589.07it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 127341.30it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 129304.17it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 127341.30it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 110740.70it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 113936.95it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 128315.23it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.44235300437492814
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.05529412554686602
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 93/100, Batch 0/2] [Losses: x 0.051470, y 0.009967, w 0.027013, h 0.029379, conf 0.297409, cls 0.419691, total 0.834930, recall: 0.66667, precision: 0.10926]
+[Epoch 93/100, Batch 1/2] [Losses: x 0.030774, y 0.008908, w 0.053755, h 0.034405, conf 0.276163, cls 0.809385, total 1.213391, recall: 0.63636, precision: 0.05538]
+Compute 93 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.01s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 720.96it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 113359.57it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 128807.80it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 130055.94it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 130816.50it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 129553.79it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 133152.51it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 132364.62it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.39952627896685283
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.049940784870856604
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 94/100, Batch 0/2] [Losses: x 0.049396, y 0.011473, w 0.045144, h 0.020989, conf 0.287858, cls 0.428143, total 0.843003, recall: 0.74775, precision: 0.11909]
+[Epoch 94/100, Batch 1/2] [Losses: x 0.037793, y 0.010521, w 0.048832, h 0.074185, conf 0.269545, cls 0.756417, total 1.197294, recall: 0.40476, precision: 0.04412]
+Compute 94 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:02<00:00,  2.13s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 768.91it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 125203.10it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 128561.04it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 128070.35it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 132626.21it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 136400.13it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 135847.90it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 141281.82it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.48011326611824023
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.06001415826478003
+New Best AP appear !!! 0.060014
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 95/100, Batch 0/2] [Losses: x 0.043214, y 0.010362, w 0.036258, h 0.016322, conf 0.276506, cls 0.412754, total 0.795415, recall: 0.75000, precision: 0.10700]
+[Epoch 95/100, Batch 1/2] [Losses: x 0.041250, y 0.008200, w 0.053604, h 0.021921, conf 0.277746, cls 0.782891, total 1.185611, recall: 0.50877, precision: 0.07400]
+Compute 95 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:01<00:00,  1.97s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 771.78it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 127341.30it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 125907.81it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 132364.62it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 133417.22it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 138368.79it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 135300.13it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 135573.46it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.5164334848158377
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.06455418560197972
+New Best AP appear !!! 0.064554
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 96/100, Batch 0/2] [Losses: x 0.037501, y 0.011360, w 0.025445, h 0.033135, conf 0.266366, cls 0.436388, total 0.810195, recall: 0.67647, precision: 0.10166]
+[Epoch 96/100, Batch 1/2] [Losses: x 0.052742, y 0.009396, w 0.031296, h 0.020428, conf 0.277802, cls 0.719552, total 1.111215, recall: 0.64706, precision: 0.08495]
+Compute 96 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:01<00:00,  2.00s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 765.42it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 129804.38it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 129055.51it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 131586.01it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 133949.83it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 119410.79it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 135847.90it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 138368.79it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.5295909977972528
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.0661988747246566
+New Best AP appear !!! 0.066199
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 97/100, Batch 0/2] [Losses: x 0.048948, y 0.010599, w 0.043298, h 0.020129, conf 0.271743, cls 0.433178, total 0.827895, recall: 0.71717, precision: 0.10484]
+[Epoch 97/100, Batch 1/2] [Losses: x 0.034439, y 0.008676, w 0.032304, h 0.023135, conf 0.258977, cls 0.728326, total 1.085857, recall: 0.59259, precision: 0.08327]
+Compute 97 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:01<00:00,  1.97s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 767.29it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 128070.35it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 126620.50it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 131844.53it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 100764.06it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 134486.70it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 132104.06it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 135027.90it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.5462362262970526
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.06827952828713157
+New Best AP appear !!! 0.068280
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 98/100, Batch 0/2] [Losses: x 0.050357, y 0.007323, w 0.019292, h 0.028113, conf 0.262511, cls 0.421175, total 0.788771, recall: 0.81373, precision: 0.12183]
+[Epoch 98/100, Batch 1/2] [Losses: x 0.023043, y 0.009737, w 0.033530, h 0.025273, conf 0.256802, cls 0.771211, total 1.119596, recall: 0.35294, precision: 0.04888]
+Compute 98 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:01<00:00,  1.97s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 782.61it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 126144.48it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 128561.04it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 129304.17it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 130055.94it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 135573.46it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 129304.17it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 138084.08it/s]Validation
+Average Precisions:
++ Class '0' - AP: 0.4857069081832304
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.0607133635229038
+
+Detecting objects:   0%|          | 0/1 [00:00<?, ?it/s][Epoch 99/100, Batch 0/2] [Losses: x 0.044909, y 0.008203, w 0.021160, h 0.014988, conf 0.264376, cls 0.416499, total 0.770135, recall: 0.71930, precision: 0.12586]
+[Epoch 99/100, Batch 1/2] [Losses: x 0.030065, y 0.008262, w 0.037586, h 0.022097, conf 0.246640, cls 0.798907, total 1.143556, recall: 0.51282, precision: 0.05520]
+Compute 99 Epoch mAP...
+Detecting objects: 100%|██████████| 1/1 [00:01<00:00,  1.99s/it]
+Computing AP for class '0':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '0': 100%|██████████| 16/16 [00:00<00:00, 771.61it/s]
+Computing AP for class '1':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '1': 100%|██████████| 16/16 [00:00<00:00, 115505.79it/s]
+Computing AP for class '2':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '2': 100%|██████████| 16/16 [00:00<00:00, 116306.52it/s]
+Computing AP for class '3':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '3': 100%|██████████| 16/16 [00:00<00:00, 128561.04it/s]
+Computing AP for class '4':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '4': 100%|██████████| 16/16 [00:00<00:00, 130816.50it/s]
+Computing AP for class '5':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '5': 100%|██████████| 16/16 [00:00<00:00, 131586.01it/s]
+Computing AP for class '6':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '6': 100%|██████████| 16/16 [00:00<00:00, 126859.86it/s]
+Computing AP for class '7':   0%|          | 0/16 [00:00<?, ?it/s]Computing AP for class '7': 100%|██████████| 16/16 [00:00<00:00, 130308.47it/s]
+Validation
+Average Precisions:
++ Class '0' - AP: 0.4363211788211788
++ Class '1' - AP: 0.0
++ Class '2' - AP: 0.0
++ Class '3' - AP: 0.0
++ Class '4' - AP: 0
++ Class '5' - AP: 0.0
++ Class '6' - AP: 0
++ Class '7' - AP: 0.0
+mAP: 0.05454014735264735
